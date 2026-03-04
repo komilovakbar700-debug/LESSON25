@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav ul{
+    display: flex;
+    gap: 100px;
+}
+nav ul li a{
+    color: #363853;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.btn{
+    border-radius: 8px;
+    border: 1px solid #DE2E54;
+    padding: 12px;
+    background-color: white;
+    color: #DE2E54;
+}
+
+.box img{
+    width: 1520px;
+    height: 533px;
+    position: relative;
+}
+
+.box_k{
+    display: flex;
+}
+.box1{
+    width: 500px;
+    height: 178px;
+    position: absolute;
+    color: white;
+    top: 250px;
+    right: 750px;
+    font-size: 20px;    
+}
+.box2 img{
+    width: 423px;
+    height: 482px;
+    position: absolute;
+    top: 142px;
+    right: 200px;
+}
+
+.box1 button{
+    margin-top: 30px;
+    padding: 12px 24px;
+    color: white;
+    background-color:#DE2E54;
+    border: none;
+    border-radius: 8px;
+}
+
+.main1{
+    display: flex;
+    width: 864px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 64px;
+    margin-bottom: 50px;
+}
+
+.main .h2_text{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.text{
+    width: 600px;
+}
+.text h2{
+    margin-bottom: 30px;
+    font-size: 24px;
+
+}
+
+.text p{
+
+    font-size: 16px;
+}
+
+.main2{
+    margin-top: 100px;
+    display: flex;
+    width: 864px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 64px;
+}
+
+.box__0{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.ohiri{
+    background-color: #0EB4C1;
+    margin-top: 80px;
+    padding: 60px 0;
+}
+
+.ohiri h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+iframe{
+    width: 513px;
+    height: 350px;
+    display: block;
+}
+.box__1{
+    background-color: #f2f2f2;
+    width: 513px;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box__1 input{
+    width: 100%;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+
+.box__1 button{
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: #39b27c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container2{
+    background-color: black;
+    
+}
+
+.container2  ul li a{
+    color: white;
+    font-size: 15px;
+    transition: 0.3s;
+}
